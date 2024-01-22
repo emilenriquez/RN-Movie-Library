@@ -1,0 +1,37 @@
+
+
+.movieItem {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 100px;
+  height: 150px;
+  flex: 0 0 auto;
+  border-radius: 2px;
+}
+
+.textContainer {
+  margin-left: 10;
+  flex: 1; // Take remaining space in the row
+}
+
+.title {
+  font-size: 16;
+  font-weight: bold;
+}
+
+.release-date {
+  margin-top: 5;
+  color: black;
+}
+
+.overview {
+  margin-top: 5px;
+  font-style: italic;
+  color: #242424
+}
+
+
